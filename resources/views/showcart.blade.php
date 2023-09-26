@@ -76,11 +76,18 @@ label {
     color: white;
 }
 
-        .butor {
+.butor {
     background: linear-gradient(135deg, #cd3507, #de6c3c);
-    margin-left: 840px;
+    margin-left: 1030px;
     margin-top: 20px;
+    transition: all 0.5s ease-in-out;
 }
+
+.butor:hover {
+    font-size: 20px;
+    cursor: pointer;
+}
+
 
 
 
@@ -137,7 +144,7 @@ label {
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <title>Klassy Cafe - Restaurant HTML Template</title>
+    <title>OFRENSH TACOS</title>
 <!--
     
 TemplateMo 558 Klassy Cafe
@@ -179,8 +186,9 @@ https://templatemo.com/tm-558-klassy-cafe
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
-                            <img src="assets/images/klassy-logo.png" align="klassy cafe html template">
+                        <a href="/" class="logo" >
+                            <label style="font-size:30px;font-family: 'Times New Roman', Times, serif;color:#f94300;margin-left:-220px;" >OFRENCH TACOS</label>
+
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -200,15 +208,7 @@ https://templatemo.com/tm-558-klassy-cafe
                         -->
                             <li class="scroll-to-section"><a href="#menu">Menu</a></li>
                             <li class="scroll-to-section"><a href="#chefs">Chefs</a></li> 
-                            <li class="submenu">
-                                <a href="javascript:;">Features</a>
-                                <ul>
-                                    <li><a href="#">Features Page 1</a></li>
-                                    <li><a href="#">Features Page 2</a></li>
-                                    <li><a href="#">Features Page 3</a></li>
-                                    <li><a href="#">Features Page 4</a></li>
-                                </ul>
-                            </li>
+                            
                             <!-- <li class=""><a rel="sponsored" href="https://templatemo.com" target="_blank">External URL</a></li> -->
                             <li class="scroll-to-section"><a href="#reservation">Contact Us</a></li> 
 

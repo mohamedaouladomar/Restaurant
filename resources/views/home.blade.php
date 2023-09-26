@@ -95,7 +95,7 @@ https://templatemo.com/tm-558-klassy-cafe
                             </a></li>
                             <li>
                                 @if (Route::has('login'))
-                <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
+                <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10" >
                     @auth
                          <li>
                             <x-app-layout>
@@ -104,7 +104,7 @@ https://templatemo.com/tm-558-klassy-cafe
                             
                          </li>
                     @else
-                     <li>   <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500" style="color: white">Log in</a> </li>
+                     <li >   <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500" style="color: white">Log in</a> </li>
 
                         @if (Route::has('register'))
                            <li> <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500" style="color: white">Register</a> </li>
